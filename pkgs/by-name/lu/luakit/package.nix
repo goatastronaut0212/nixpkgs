@@ -10,7 +10,7 @@
   pkg-config,
   sqlite,
   stdenv,
-  webkitgtk_4_0,
+  webkitgtk_4_1,
   wrapGAppsHook3,
 }:
 
@@ -19,13 +19,13 @@ let
 in
 stdenv.mkDerivation (finalAttrs: {
   pname = "luakit";
-  version = "2.3.3";
+  version = "2.3.6";
 
   src = fetchFromGitHub {
     owner = "luakit";
     repo = "luakit";
     rev = finalAttrs.version;
-    hash = "sha256-DtoixcLq+ddbacTAo+Qq6q4k1i6thirACw1zqUeOxXo=";
+    hash = "sha256-uMoDI1y+ku+uB/dJCLONOGN3vhqgfR2/YBFUxjRtWYw=";
   };
 
   nativeBuildInputs = [
@@ -41,7 +41,7 @@ stdenv.mkDerivation (finalAttrs: {
       gtk3
       luafilesystem
       sqlite
-      webkitgtk_4_0
+      webkitgtk_4_1
     ]
     ++ (with gst_all_1; [
       gst-libav
