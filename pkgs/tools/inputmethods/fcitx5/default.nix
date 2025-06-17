@@ -9,6 +9,7 @@
   extra-cmake-modules,
   wayland-scanner,
   cairo,
+  doxygen,
   pango,
   expat,
   fribidi,
@@ -36,6 +37,7 @@
   libxkbfile,
   nixosTests,
   gettext,
+  enableDocs ? true,
 }:
 let
   enDictVer = "20121020";
@@ -65,6 +67,8 @@ stdenv.mkDerivation rec {
     pkg-config
     wayland-scanner
     gettext
+  ] ++ lib.optionals enableDocs [
+    doxygen
   ];
 
   buildInputs = [
@@ -98,7 +102,17 @@ stdenv.mkDerivation rec {
 
   cmakeFlags = lib.optionals (!stdenv.buildPlatform.canExecute stdenv.hostPlatform) [
     (lib.cmakeFeature "CMAKE_CROSSCOMPILING_EMULATOR" (stdenv.hostPlatform.emulator buildPackages))
+  ] ++ lib.optionals enableDocs [
+    (lib.cmakeBool "ENABLE_DOC" true)
   ];
+
+  postBuild = ''
+    make doc
+  '';
+
+  postInstall = ''
+    cp -r doc $out/share
+  '';
 
   strictDeps = true;
 
