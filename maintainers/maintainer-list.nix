@@ -2787,6 +2787,13 @@
     githubId = 68944906;
     name = "Nikita";
   };
+  bandithedoge = {
+    email = "bandithedoge@protonmail.com";
+    matrix = "@bandithedoge:matrix.org";
+    github = "bandithedoge";
+    githubId = 26331682;
+    name = "Mikołaj Lercher";
+  };
   bandresen = {
     email = "bandresen@gmail.com";
     github = "bennyandresen";
@@ -8028,12 +8035,6 @@
     githubId = 8073;
     name = "Francois-Rene Rideau";
   };
-  farlion = {
-    email = "florian.peter@gmx.at";
-    github = "workflow";
-    githubId = 1276854;
-    name = "Florian Peter";
-  };
   farnoy = {
     email = "jakub@okonski.org";
     github = "farnoy";
@@ -10875,6 +10876,12 @@
     github = "tgys";
     githubId = 13622947;
     keys = [ { fingerprint = "1412 816B A9FA F62F D051 1975 D3E1 B013 B463 1293"; } ];
+  };
+  isotoxal = {
+    name = "Abhinav Kuruvila Joseph";
+    email = "abhinavkuruvila@proton.me";
+    github = "IsotoxalDev";
+    githubId = 62714538;
   };
   istoph = {
     email = "chr@istoph.de";
@@ -14429,6 +14436,12 @@
     name = "legendofmiracles";
     keys = [ { fingerprint = "CC50 F82C 985D 2679 0703  AF15 19B0 82B3 DEFE 5451"; } ];
   };
+  lonerOrz = {
+    email = "2788892716@qq.com";
+    name = "lonerOrz";
+    github = "lonerOrz";
+    githubId = 68736947;
+  };
   longer = {
     email = "michal@mieszczak.com.pl";
     name = "Michał Mieszczak";
@@ -15879,6 +15892,12 @@
     githubId = 1377571;
     name = "Matthew S. Daiter";
   };
+  mdaniels5757 = {
+    email = "nix@mdaniels.me";
+    github = "mdaniels5757";
+    githubId = 8762511;
+    name = "Michael Daniels";
+  };
   mdarocha = {
     email = "marek@mdarocha.pl";
     github = "mdarocha";
@@ -17177,6 +17196,13 @@
     github = "myypo";
     githubId = 110892040;
     name = "Mykyta Polchanov";
+  };
+  myzel394 = {
+    email = "github.7a2op@simplelogin.co";
+    github = "Myzel394";
+    githubId = 50424412;
+    matrix = "@myzel394:matrix.org";
+    name = "Myzel394";
   };
   mzabani = {
     email = "mzabani@gmail.com";
@@ -19405,6 +19431,12 @@
     githubId = 28323;
     name = "Peter Simons";
   };
+  petingoso = {
+    email = "petingavasco@protonmail.com";
+    github = "Petingoso";
+    githubId = 92183955;
+    name = "Vasco Petinga";
+  };
   petrkozorezov = {
     email = "petr.kozorezov@gmail.com";
     github = "petrkozorezov";
@@ -20592,6 +20624,12 @@
     githubId = 1542224;
     matrix = "@qyriad:katesiria.org";
     name = "Qyriad";
+  };
+  r-aizawa = {
+    github = "Xantibody";
+    githubId = 109563705;
+    name = "Ryu Aizawa";
+    email = "zeku.bushinryu38@gmail.com";
   };
   r-burns = {
     email = "rtburns@protonmail.com";
@@ -22438,6 +22476,12 @@
     email = "sdaqo.dev@protonmail.com";
     github = "sdaqo";
     githubId = 63876564;
+  };
+  sdedovic = {
+    name = "Stevan Dedovic";
+    email = "stevan@dedovic.com";
+    github = "sdedovic";
+    githubId = 599915;
   };
   sdht0 = {
     email = "nixpkgs@sdht.in";
@@ -26332,10 +26376,11 @@
     name = "Danny Wilson";
   };
   vizid = {
-    email = "vizid1337@gmail.com";
+    email = "mail@vizqq.cc";
     github = "ViZiD";
     githubId = 7444430;
     name = "Radik Islamov";
+    keys = [ { fingerprint = "5779 01B8 C620 E064 4212  C6FC F396 46E8 0C71 08E7"; } ];
   };
   vji = {
     email = "mail@viktor.im";
@@ -26946,6 +26991,13 @@
     githubId = 1595132;
     name = "Kranium Gikos Mendoza";
   };
+  workflow = {
+    email = "4farlion@gmail.com";
+    github = "workflow";
+    githubId = 1276854;
+    name = "Florian Peter";
+    keys = [ { fingerprint = "C349 3C74 E232 A1EE E005  1678 2457 5DB9 3F6C EC16"; } ];
+  };
   worldofpeace = {
     email = "worldofpeace@protonmail.ch";
     github = "worldofpeace";
@@ -27489,6 +27541,15 @@
     github = "yoctocell";
     githubId = 40352765;
     name = "Yoctocell";
+  };
+  yogansh = {
+    email = "yogansh@yogansh.tech";
+    github = "YoganshSharma";
+    githubId = 38936915;
+    name = "Yogansh Sharma";
+    keys = [
+      { fingerprint = "D2A8 A906 ACA7 B6D6 575E 9A2F 3A49 5054 6EA6 9E5C"; }
+    ];
   };
   yomaq = {
     name = "yomaq";

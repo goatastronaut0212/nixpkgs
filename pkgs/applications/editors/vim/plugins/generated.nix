@@ -6612,20 +6612,6 @@ final: prev: {
     meta.hydraPlatforms = [ ];
   };
 
-  jsonfly-nvim = buildVimPlugin {
-    pname = "jsonfly.nvim";
-    version = "2024-09-30";
-    src = fetchFromGitHub {
-      owner = "Myzel394";
-      repo = "jsonfly.nvim";
-      rev = "d713d9ef38115ab09b4a2828dac67b2b3f7d35c4";
-      sha256 = "12nafsy2s01ci679sj6s980kx4lgd7zyqng7xv3gbf2r2xvj3prr";
-      fetchSubmodules = true;
-    };
-    meta.homepage = "https://github.com/Myzel394/jsonfly.nvim/";
-    meta.hydraPlatforms = [ ];
-  };
-
   jule-nvim = buildVimPlugin {
     pname = "jule.nvim";
     version = "2025-02-22";
@@ -13210,6 +13196,19 @@ final: prev: {
       sha256 = "1na3x1n24xpybw4v7mi25pwfk18nm27kp7iywprdh7x6y6sx0czk";
     };
     meta.homepage = "https://github.com/cakebaker/scss-syntax.vim/";
+    meta.hydraPlatforms = [ ];
+  };
+
+  search-and-replace-nvim = buildVimPlugin {
+    pname = "search-and-replace.nvim";
+    version = "2025-06-16";
+    src = fetchFromGitHub {
+      owner = "mahyarmirrashed";
+      repo = "search-and-replace.nvim";
+      rev = "12dce26afc7f3c66d6ffbf2eae91ce19d4cdcc74";
+      sha256 = "0i197fs58qk6mgqsxi7cacba8sya7kh9cdnnz6sa79ry42cdff6a";
+    };
+    meta.homepage = "https://github.com/mahyarmirrashed/search-and-replace.nvim/";
     meta.hydraPlatforms = [ ];
   };
 
@@ -21302,12 +21301,12 @@ final: prev: {
 
   vimtex = buildVimPlugin {
     pname = "vimtex";
-    version = "2025-06-02";
+    version = "2025-06-12";
     src = fetchFromGitHub {
       owner = "lervag";
       repo = "vimtex";
-      rev = "f20b11458e97250d690ce0dc8670759b838cace9";
-      sha256 = "1ihq3l1wx7pbm6qw1gky8r51f2z08c723gvc19j1mklcg4gxgw7z";
+      rev = "4b4f18b1b181cdea35fdc418e5eb511f20e1f0fb";
+      sha256 = "1dwp05rkpykq3ppwy45hcy6d8d63sh76i4qmw3387ybisj06929v";
     };
     meta.homepage = "https://github.com/lervag/vimtex/";
     meta.hydraPlatforms = [ ];
